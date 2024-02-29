@@ -30,8 +30,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'de',
+    locales: ['de'],
   },
 
   presets: [
@@ -74,11 +74,17 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'fwuSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Vidis',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'docSidebar',
+            sidebarId: 'fwuSidebar',
+            position: 'left',
+            label: 'Mundo',
+          },
+          //{to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/fwu-de/bmi-docs',
             label: 'GitHub',
