@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'FWI BMI Docs',
-  tagline: 'Technische Dokumenation der Bildungsmedieninfrastruktur des FWU',
+  tagline: 'Technische Dokumentation der Bildungsmedieninfrastruktur des FWU',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
