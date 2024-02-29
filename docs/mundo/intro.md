@@ -1,8 +1,8 @@
 ---
 sidebar_position: 1
-title: "mundo"
+title: "Nutzung über LTI"
 ---
 
-# Mundo
+# Mundo Nutzung über LTI
 
 
