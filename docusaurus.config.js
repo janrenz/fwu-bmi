@@ -73,14 +73,12 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'fwuSidebar',
+            to: 'docs/vidis/intro',
             position: 'left',
             label: 'Vidis',
           },
           {
-            type: 'docSidebar',
-            sidebarId: 'fwuSidebar',
+            to: 'docs/mundo/intro',
             position: 'left',
             label: 'Mundo',
           },
@@ -96,16 +94,11 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
-            items: [
-            ],
-          },
-          {
-            title: 'More',
+            title: 'Weitere Links',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Impressum und Datenschutz',
+                to: 'https://fwu.de/impressum-datenschutz',
               },
               {
                 label: 'GitHub',
