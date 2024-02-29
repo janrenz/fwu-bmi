@@ -70,5 +70,7 @@ Schulaccount oder Angebotsaccount auf service.vidis.schule erforderlich). Dort b
 Einblick in die verwendeten Schemas, dies würd hier zu weit führen.
 Die hier verwendeten Werte sind nur Dummy-Werte und stellen keine "rechten" Organisations- oder Angebots-IDs dar.
   
-
+| Name | Default | Description |
+| --- | --- | --- |
+| `--test` | `3000` | Nur ne testtabelle |
 
